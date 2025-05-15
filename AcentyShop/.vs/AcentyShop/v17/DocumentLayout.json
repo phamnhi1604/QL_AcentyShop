@@ -1,0 +1,124 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "F:\\Code\\QL_AcentyShop\\AcentyShop\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E3680F61-6F6D-43EB-A247-B291CE3C1BF6}|AcentyShop_Winform\\AcentyShop_Winform.csproj|f:\\code\\ql_acentyshop\\acentyshop\\acentyshop_winform\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E3680F61-6F6D-43EB-A247-B291CE3C1BF6}|AcentyShop_Winform\\AcentyShop_Winform.csproj|solutionrelative:acentyshop_winform\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E3680F61-6F6D-43EB-A247-B291CE3C1BF6}|AcentyShop_Winform\\AcentyShop_Winform.csproj|f:\\code\\ql_acentyshop\\acentyshop\\acentyshop_winform\\gui\\frmkhachhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E3680F61-6F6D-43EB-A247-B291CE3C1BF6}|AcentyShop_Winform\\AcentyShop_Winform.csproj|solutionrelative:acentyshop_winform\\gui\\frmkhachhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E3680F61-6F6D-43EB-A247-B291CE3C1BF6}|AcentyShop_Winform\\AcentyShop_Winform.csproj|f:\\code\\ql_acentyshop\\acentyshop\\acentyshop_winform\\gui\\frmkhachhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{E3680F61-6F6D-43EB-A247-B291CE3C1BF6}|AcentyShop_Winform\\AcentyShop_Winform.csproj|solutionrelative:acentyshop_winform\\gui\\frmkhachhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E3680F61-6F6D-43EB-A247-B291CE3C1BF6}|AcentyShop_Winform\\AcentyShop_Winform.csproj|f:\\code\\ql_acentyshop\\acentyshop\\acentyshop_winform\\dal\\dbacentyshop.dbml||{B465B5AD-8799-4507-B90A-EE29ACF36AF9}|",
+      "RelativeMoniker": "D:0:0:{E3680F61-6F6D-43EB-A247-B291CE3C1BF6}|AcentyShop_Winform\\AcentyShop_Winform.csproj|solutionrelative:acentyshop_winform\\dal\\dbacentyshop.dbml||{B465B5AD-8799-4507-B90A-EE29ACF36AF9}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E3680F61-6F6D-43EB-A247-B291CE3C1BF6}|AcentyShop_Winform\\AcentyShop_Winform.csproj|f:\\code\\ql_acentyshop\\acentyshop\\acentyshop_winform\\dal\\khachhangdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E3680F61-6F6D-43EB-A247-B291CE3C1BF6}|AcentyShop_Winform\\AcentyShop_Winform.csproj|solutionrelative:acentyshop_winform\\dal\\khachhangdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A029433-678A-4DE1-8A74-173ADE1B1FF5}|AcentyShop\\AcentyShop.csproj|F:\\Code\\QL_AcentyShop\\AcentyShop\\acentyshop\\models\\acentyshop.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1A029433-678A-4DE1-8A74-173ADE1B1FF5}|AcentyShop\\AcentyShop.csproj|solutionrelative:acentyshop\\models\\acentyshop.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 194,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d84ee353-0bef-5a41-a649-8f89aca5d84d}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "F:\\Code\\QL_AcentyShop\\AcentyShop\\AcentyShop_Winform\\Program.cs",
+              "RelativeDocumentMoniker": "AcentyShop_Winform\\Program.cs",
+              "ToolTip": "F:\\Code\\QL_AcentyShop\\AcentyShop\\AcentyShop_Winform\\Program.cs",
+              "RelativeToolTip": "AcentyShop_Winform\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T18:06:33.269Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "KhachHangDAL.cs",
+              "DocumentMoniker": "F:\\Code\\QL_AcentyShop\\AcentyShop\\AcentyShop_Winform\\DAL\\KhachHangDAL.cs",
+              "RelativeDocumentMoniker": "AcentyShop_Winform\\DAL\\KhachHangDAL.cs",
+              "ToolTip": "F:\\Code\\QL_AcentyShop\\AcentyShop\\AcentyShop_Winform\\DAL\\KhachHangDAL.cs",
+              "RelativeToolTip": "AcentyShop_Winform\\DAL\\KhachHangDAL.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T18:04:56.74Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "frmKhachHang.cs",
+              "DocumentMoniker": "F:\\Code\\QL_AcentyShop\\AcentyShop\\AcentyShop_Winform\\GUI\\frmKhachHang.cs",
+              "RelativeDocumentMoniker": "AcentyShop_Winform\\GUI\\frmKhachHang.cs",
+              "ToolTip": "F:\\Code\\QL_AcentyShop\\AcentyShop\\AcentyShop_Winform\\GUI\\frmKhachHang.cs",
+              "RelativeToolTip": "AcentyShop_Winform\\GUI\\frmKhachHang.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAlwBUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T18:02:34.599Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "frmKhachHang.cs [Design]",
+              "DocumentMoniker": "F:\\Code\\QL_AcentyShop\\AcentyShop\\AcentyShop_Winform\\GUI\\frmKhachHang.cs",
+              "RelativeDocumentMoniker": "AcentyShop_Winform\\GUI\\frmKhachHang.cs",
+              "ToolTip": "F:\\Code\\QL_AcentyShop\\AcentyShop\\AcentyShop_Winform\\GUI\\frmKhachHang.cs [Design]",
+              "RelativeToolTip": "AcentyShop_Winform\\GUI\\frmKhachHang.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T18:02:12.62Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DBAcentyShop.dbml",
+              "DocumentMoniker": "F:\\Code\\QL_AcentyShop\\AcentyShop\\AcentyShop_Winform\\DAL\\DBAcentyShop.dbml",
+              "RelativeDocumentMoniker": "AcentyShop_Winform\\DAL\\DBAcentyShop.dbml",
+              "ToolTip": "F:\\Code\\QL_AcentyShop\\AcentyShop\\AcentyShop_Winform\\DAL\\DBAcentyShop.dbml",
+              "RelativeToolTip": "AcentyShop_Winform\\DAL\\DBAcentyShop.dbml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001722|",
+              "WhenOpened": "2025-05-15T17:55:23.609Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AcentyShop.designer.cs",
+              "DocumentMoniker": "F:\\Code\\QL_AcentyShop\\AcentyShop\\AcentyShop\\Models\\AcentyShop.designer.cs",
+              "RelativeDocumentMoniker": "AcentyShop\\Models\\AcentyShop.designer.cs",
+              "ToolTip": "F:\\Code\\QL_AcentyShop\\AcentyShop\\AcentyShop\\Models\\AcentyShop.designer.cs",
+              "RelativeToolTip": "AcentyShop\\Models\\AcentyShop.designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-10T07:41:38.051Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

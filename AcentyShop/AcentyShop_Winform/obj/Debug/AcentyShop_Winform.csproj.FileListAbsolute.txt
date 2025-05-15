@@ -1,0 +1,10 @@
+F:\Code\QL_AcentyShop\AcentyShop\AcentyShop_Winform\bin\Debug\AcentyShop_Winform.exe.config
+F:\Code\QL_AcentyShop\AcentyShop\AcentyShop_Winform\bin\Debug\AcentyShop_Winform.exe
+F:\Code\QL_AcentyShop\AcentyShop\AcentyShop_Winform\bin\Debug\AcentyShop_Winform.pdb
+F:\Code\QL_AcentyShop\AcentyShop\AcentyShop_Winform\obj\Debug\AcentyShop_Winform.csproj.AssemblyReference.cache
+F:\Code\QL_AcentyShop\AcentyShop\AcentyShop_Winform\obj\Debug\AcentyShop_Winform.GUI.frmKhachHang.resources
+F:\Code\QL_AcentyShop\AcentyShop\AcentyShop_Winform\obj\Debug\AcentyShop_Winform.Properties.Resources.resources
+F:\Code\QL_AcentyShop\AcentyShop\AcentyShop_Winform\obj\Debug\AcentyShop_Winform.csproj.GenerateResource.cache
+F:\Code\QL_AcentyShop\AcentyShop\AcentyShop_Winform\obj\Debug\AcentyShop_Winform.csproj.CoreCompileInputs.cache
+F:\Code\QL_AcentyShop\AcentyShop\AcentyShop_Winform\obj\Debug\AcentyShop_Winform.exe
+F:\Code\QL_AcentyShop\AcentyShop\AcentyShop_Winform\obj\Debug\AcentyShop_Winform.pdb

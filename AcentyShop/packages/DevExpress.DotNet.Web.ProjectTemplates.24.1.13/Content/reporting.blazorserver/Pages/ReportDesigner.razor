@@ -1,0 +1,21 @@
+@*#if(add-designer) {
+@page "/reportdesigner"
+@*#if(add-data-source) {
+@using DevExpress.DataAccess.Sql;
+#endif*@
+
+<DxReportDesigner ReportName="TestReport" Height="calc(100vh - 130px)" Width="100%" AllowMDI="true" DataSources="DataSources">
+    <DxReportDesignerWizardSettings UseFullscreenWizard="true" />
+</DxReportDesigner>
+
+@code {
+    Dictionary<string, object> DataSources = new Dictionary<string, object>();
+@*#if(add-data-source) {
+    protected override async Task OnInitializedAsync() {
+        await base.OnInitializedAsync();
+        SqlDataSource ds = new SqlDataSource("NWindConnectionString");
+        DataSources.Add("Northwind", ds);
+    }
+#endif*@
+}
+#endif*@

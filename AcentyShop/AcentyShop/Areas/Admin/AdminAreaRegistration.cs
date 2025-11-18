@@ -1,6 +1,6 @@
 ﻿using System.Web.Mvc;
 
-namespace AcentyShop.Areas.Admin
+namespace AcentyShop.Areas.NhanVien
 {
     public class AdminAreaRegistration : AreaRegistration 
     {

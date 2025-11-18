@@ -1,0 +1,30 @@
+﻿@using DevExpressProjectTemplate.Services;
+@inherits LayoutComponentBase
+
+<div class="page">
+    <div class="sidebar">
+        <NavMenu />
+    </div>
+
+    <main>
+        <div class="top-row px-4">
+            <a href="https://docs.microsoft.com/aspnet/" target="_blank">About</a>
+        </div>
+
+        <article class="content px-4">
+            @Body
+        </article>
+    </main>
+</div>
+
+@code {
+    [Inject] HttpClient Http { get; set; }
+    List<string> RequiredFonts = new() {
+        "opensans.ttf"
+    };
+
+    protected async override Task OnInitializedAsync() {
+        await FontLoader.LoadFonts(Http, RequiredFonts);
+        await base.OnInitializedAsync();
+    }
+}

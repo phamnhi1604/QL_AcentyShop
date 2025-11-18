@@ -29,10 +29,10 @@
                                 @*<a href="@Url.Action("GetSanPhamById","SanPham", new { id = item.SanPham.IdSanPham})" class="fas fa-eye"></a>*@
                             </div>
                             <div class="image">
-                                <img src="~/Content/Images/@item.SanPham.AnhSP">
+                                <img src="~/Content/Images/Data/@item.SanPham.AnhSP">
                             </div>
                             <div class="content">
-                                @*<h3 class="title-name"><a href="@Url.Action("GetSanPhamById","SanPham", new { id = item.SanPham.IdSanPham})">@item.SanPham.TenSanPham</a></h3>*@
+                                <h3 class="title-name"><a href="@Url.Action("GetSanPhamById","SanPham", new { id = item.SanPham.IdSanPham})">@item.SanPham.TenSanPham</a></h3>
                                 <div class="box-price">
                                     <div class="price">@string.Format("{0:N0}", item.SanPham.GiaBan)đ</div>
                                     <div class="cut">@string.Format("{0:N0}", item.Gia)đ</div>

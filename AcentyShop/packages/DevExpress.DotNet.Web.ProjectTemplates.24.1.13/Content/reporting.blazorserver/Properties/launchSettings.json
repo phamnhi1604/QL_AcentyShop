@@ -1,0 +1,17 @@
+{
+  "profiles": {
+    //#if(Dockerfile != 'None')
+    "Docker": {
+      "commandName": "Docker",
+      "launchBrowser": true,
+      "launchUrl": "{Scheme}://{ServiceHost}:{ServicePort}",
+      "publishAllPorts": true,
+      "useSSL": true
+    },
+    //#endif
+    "DevExpressProjectTemplate": {
+      "commandName": "Project",
+      "launchBrowser": true
+    }
+  }
+}

@@ -1,0 +1,25 @@
+@*#if(add-designer) {
+@page "/reportdesigner"
+@*#if(RegisterJsonDataSource) {
+@using DevExpress.DataAccess.Json;
+@using DevExpressProjectTemplate.Services;
+#endif*@
+
+<DxReportDesigner ReportName="LargeDatasetReport" Height="calc(100vh - 130px)" Width="100%" AllowMDI="true" DataSources="DataSources">
+    <DxReportDesignerWizardSettings UseFullscreenWizard="true" />
+</DxReportDesigner>
+
+@code {
+    Dictionary<string, object> DataSources = new Dictionary<string, object>();
+@*#if(RegisterJsonDataSource) {
+    protected override async Task OnInitializedAsync() {
+        await base.OnInitializedAsync();
+        var connection = CustomDataSourceWizardJsonDataConnectionStorage.GetDefaultConnection();
+        JsonDataSource jsonDataSource = new JsonDataSource();
+        jsonDataSource.JsonSource = connection.GetJsonSource();
+        await jsonDataSource.FillAsync();
+        DataSources.Add("Northwind", jsonDataSource);
+    }
+#endif*@
+}
+#endif*@

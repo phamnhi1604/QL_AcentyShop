@@ -1,0 +1,15 @@
+{
+  "name": "DevExpressProjectTemplate",
+  "version": "1.0.0",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "bootstrap": "^5.3.3",
+    "devextreme-dist": "24.1-stable",
+//#if(EnableClientRichEdit) {
+    "devexpress-richedit": "24.1-stable",
+//#endif
+    "@devexpress/analytics-core": "24.1-stable",
+    "devexpress-reporting": "24.1-stable"
+  }
+}

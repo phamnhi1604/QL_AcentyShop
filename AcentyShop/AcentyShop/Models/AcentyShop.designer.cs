@@ -79,7 +79,6 @@ namespace AcentyShop.Models
     partial void UpdateSanPham(SanPham instance);
     partial void DeleteSanPham(SanPham instance);
         #endregion
-
         public AcentyShopDataContext() :
         base(global::System.Configuration.ConfigurationManager.ConnectionStrings["QL_AcentyShopConnectionString"].ConnectionString, mappingSource)
         {
@@ -1351,6 +1350,8 @@ namespace AcentyShop.Models
 		
 		private EntitySet<ChiTietDonHang> _ChiTietDonHangs;
 		
+		private EntitySet<HoaDon> _HoaDons;
+		
 		private EntityRef<KhachHang> _KhachHang;
 		
     #region Extensibility Method Definitions
@@ -1380,6 +1381,7 @@ namespace AcentyShop.Models
 		public DonHang()
 		{
 			this._ChiTietDonHangs = new EntitySet<ChiTietDonHang>(new Action<ChiTietDonHang>(this.attach_ChiTietDonHangs), new Action<ChiTietDonHang>(this.detach_ChiTietDonHangs));
+			this._HoaDons = new EntitySet<HoaDon>(new Action<HoaDon>(this.attach_HoaDons), new Action<HoaDon>(this.detach_HoaDons));
 			this._KhachHang = default(EntityRef<KhachHang>);
 			OnCreated();
 		}
@@ -1581,6 +1583,19 @@ namespace AcentyShop.Models
 			}
 		}
 		
+		[global::System.Data.Linq.Mapping.AssociationAttribute(Name="DonHang_HoaDon", Storage="_HoaDons", ThisKey="IdDonHang", OtherKey="IdDonHang")]
+		public EntitySet<HoaDon> HoaDons
+		{
+			get
+			{
+				return this._HoaDons;
+			}
+			set
+			{
+				this._HoaDons.Assign(value);
+			}
+		}
+		
 		[global::System.Data.Linq.Mapping.AssociationAttribute(Name="KhachHang_DonHang", Storage="_KhachHang", ThisKey="IdKhachHang", OtherKey="IdKhachHang", IsForeignKey=true)]
 		public KhachHang KhachHang
 		{
@@ -1646,6 +1661,18 @@ namespace AcentyShop.Models
 			this.SendPropertyChanging();
 			entity.DonHang = null;
 		}
+		
+		private void attach_HoaDons(HoaDon entity)
+		{
+			this.SendPropertyChanging();
+			entity.DonHang = this;
+		}
+		
+		private void detach_HoaDons(HoaDon entity)
+		{
+			this.SendPropertyChanging();
+			entity.DonHang = null;
+		}
 	}
 	
 	[global::System.Data.Linq.Mapping.TableAttribute(Name="dbo.HoaDon")]
@@ -1666,7 +1693,11 @@ namespace AcentyShop.Models
 		
 		private System.DateTime _NgayXuatHD;
 		
+		private System.Nullable<long> _IdDonHang;
+		
 		private EntitySet<ChiTietHoaDon> _ChiTietHoaDons;
+		
+		private EntityRef<DonHang> _DonHang;
 		
 		private EntityRef<ChiNhanh> _ChiNhanh;
 		
@@ -1688,11 +1719,14 @@ namespace AcentyShop.Models
     partial void OnPhuongThucThanhToanChanged();
     partial void OnNgayXuatHDChanging(System.DateTime value);
     partial void OnNgayXuatHDChanged();
+    partial void OnIdDonHangChanging(System.Nullable<long> value);
+    partial void OnIdDonHangChanged();
     #endregion
 		
 		public HoaDon()
 		{
 			this._ChiTietHoaDons = new EntitySet<ChiTietHoaDon>(new Action<ChiTietHoaDon>(this.attach_ChiTietHoaDons), new Action<ChiTietHoaDon>(this.detach_ChiTietHoaDons));
+			this._DonHang = default(EntityRef<DonHang>);
 			this._ChiNhanh = default(EntityRef<ChiNhanh>);
 			this._NhanVien = default(EntityRef<NhanVien>);
 			OnCreated();
@@ -1826,6 +1860,30 @@ namespace AcentyShop.Models
 			}
 		}
 		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_IdDonHang", DbType="BigInt")]
+		public System.Nullable<long> IdDonHang
+		{
+			get
+			{
+				return this._IdDonHang;
+			}
+			set
+			{
+				if ((this._IdDonHang != value))
+				{
+					if (this._DonHang.HasLoadedOrAssignedValue)
+					{
+						throw new System.Data.Linq.ForeignKeyReferenceAlreadyHasValueException();
+					}
+					this.OnIdDonHangChanging(value);
+					this.SendPropertyChanging();
+					this._IdDonHang = value;
+					this.SendPropertyChanged("IdDonHang");
+					this.OnIdDonHangChanged();
+				}
+			}
+		}
+		
 		[global::System.Data.Linq.Mapping.AssociationAttribute(Name="HoaDon_ChiTietHoaDon", Storage="_ChiTietHoaDons", ThisKey="IdHoaDon", OtherKey="IdHoaDon")]
 		public EntitySet<ChiTietHoaDon> ChiTietHoaDons
 		{
@@ -1836,6 +1894,40 @@ namespace AcentyShop.Models
 			set
 			{
 				this._ChiTietHoaDons.Assign(value);
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.AssociationAttribute(Name="DonHang_HoaDon", Storage="_DonHang", ThisKey="IdDonHang", OtherKey="IdDonHang", IsForeignKey=true)]
+		public DonHang DonHang
+		{
+			get
+			{
+				return this._DonHang.Entity;
+			}
+			set
+			{
+				DonHang previousValue = this._DonHang.Entity;
+				if (((previousValue != value) 
+							|| (this._DonHang.HasLoadedOrAssignedValue == false)))
+				{
+					this.SendPropertyChanging();
+					if ((previousValue != null))
+					{
+						this._DonHang.Entity = null;
+						previousValue.HoaDons.Remove(this);
+					}
+					this._DonHang.Entity = value;
+					if ((value != null))
+					{
+						value.HoaDons.Add(this);
+						this._IdDonHang = value.IdDonHang;
+					}
+					else
+					{
+						this._IdDonHang = default(Nullable<long>);
+					}
+					this.SendPropertyChanged("DonHang");
+				}
 			}
 		}
 		

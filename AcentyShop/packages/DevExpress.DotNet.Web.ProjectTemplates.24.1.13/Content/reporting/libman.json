@@ -1,0 +1,36 @@
+{
+  "version": "1.0",
+  "defaultProvider": "filesystem",
+  "libraries": [
+//#if(EnableClientRichEdit) {
+    {
+      "library": "node_modules/devexpress-richedit/dist/icons/",
+      "destination": "wwwroot/css/icons",
+      "files": [
+        "dxre-icons.ttf",
+        "dxre-icons.woff",
+        "dxre-icons.woff2"
+      ]
+    },
+//#endif
+//#if(add-designer)
+    {
+      "library": "node_modules/ace-builds/css/",
+      "destination": "wwwroot/css/ace",
+      "files": [ "*.png", "*.svg"  ]
+    },
+//#endif
+    {
+      "library": "node_modules/devextreme-dist/css/icons/",
+      "destination": "wwwroot/css/icons",
+      "files": [
+        "dxiconsmaterial.ttf",
+        "dxiconsmaterial.woff",
+        "dxiconsmaterial.woff2",
+        "dxicons.ttf",
+        "dxicons.woff2",
+        "dxicons.woff"
+      ]
+    }
+  ]
+}

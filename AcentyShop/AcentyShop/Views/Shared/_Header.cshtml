@@ -30,11 +30,11 @@
         </div>
 
     </div>
-    @*@using (Html.BeginForm("SearchSanPhamByName", "SanPham", FormMethod.Post, new { @class = "search-form" }))
+    @using (Html.BeginForm("SearchSanPhamByName", "SanPham", FormMethod.Post, new { @class = "search-form" }))
     {
         <input type="search" name="searchValue" placeholder="search here..." id="search-box" value="@ViewBag.SearchValue">
         <button type="submit" for="search-box" class="fas fa-search"></button>
-    }*@
+    }
 
 
 

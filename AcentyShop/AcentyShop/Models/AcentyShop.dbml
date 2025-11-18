@@ -69,6 +69,7 @@
       <Column Name="TrangThaiDonHang" Type="System.String" DbType="NVarChar(30) NOT NULL" CanBeNull="false" />
       <Column Name="TrangThaiThanhToan" Type="System.String" DbType="NVarChar(30) NOT NULL" CanBeNull="false" />
       <Association Name="DonHang_ChiTietDonHang" Member="ChiTietDonHangs" ThisKey="IdDonHang" OtherKey="IdDonHang" Type="ChiTietDonHang" />
+      <Association Name="DonHang_HoaDon" Member="HoaDons" ThisKey="IdDonHang" OtherKey="IdDonHang" Type="HoaDon" />
       <Association Name="KhachHang_DonHang" Member="KhachHang" ThisKey="IdKhachHang" OtherKey="IdKhachHang" Type="KhachHang" IsForeignKey="true" />
     </Type>
   </Table>
@@ -80,7 +81,9 @@
       <Column Name="SoDienThoai" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
       <Column Name="PhuongThucThanhToan" Type="System.String" DbType="NVarChar(30) NOT NULL" CanBeNull="false" />
       <Column Name="NgayXuatHD" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+      <Column Name="IdDonHang" Type="System.Int64" DbType="BigInt" CanBeNull="true" />
       <Association Name="HoaDon_ChiTietHoaDon" Member="ChiTietHoaDons" ThisKey="IdHoaDon" OtherKey="IdHoaDon" Type="ChiTietHoaDon" />
+      <Association Name="DonHang_HoaDon" Member="DonHang" ThisKey="IdDonHang" OtherKey="IdDonHang" Type="DonHang" IsForeignKey="true" />
       <Association Name="ChiNhanh_HoaDon" Member="ChiNhanh" ThisKey="IdChiNhanh" OtherKey="IdChiNhanh" Type="ChiNhanh" IsForeignKey="true" />
       <Association Name="NhanVien_HoaDon" Member="NhanVien" ThisKey="IdNhanVien" OtherKey="IdNhanVien" Type="NhanVien" IsForeignKey="true" />
     </Type>

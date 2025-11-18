@@ -67,6 +67,6 @@ F:\Code\QL_AcentyShop\AcentyShop\AcentyShop\bin\System.Web.Mvc.xml
 F:\Code\QL_AcentyShop\AcentyShop\AcentyShop\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
 F:\Code\QL_AcentyShop\AcentyShop\AcentyShop\obj\Debug\AcentyShop.csproj.AssemblyReference.cache
 F:\Code\QL_AcentyShop\AcentyShop\AcentyShop\obj\Debug\AcentyShop.csproj.CoreCompileInputs.cache
-F:\Code\QL_AcentyShop\AcentyShop\AcentyShop\obj\Debug\AcentyShop.csproj.Up2Date
 F:\Code\QL_AcentyShop\AcentyShop\AcentyShop\obj\Debug\AcentyShop.dll
 F:\Code\QL_AcentyShop\AcentyShop\AcentyShop\obj\Debug\AcentyShop.pdb
+F:\Code\QL_AcentyShop\AcentyShop\AcentyShop\obj\Debug\AcentyShop.csproj.CopyComplete

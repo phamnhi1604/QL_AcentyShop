@@ -1,2 +1,3 @@
 # QL_AcentyShop
 Shop bán hàng
+fashion shop, phụ kiện,...

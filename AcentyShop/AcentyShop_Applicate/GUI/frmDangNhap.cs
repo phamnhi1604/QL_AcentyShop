@@ -37,11 +37,11 @@ namespace AcentyShop_Applicate.GUI
                 return;
             }
 
-            int kq = XuLy.Check_Config(); //hàm Check_Config() thuộc Class QL_NguoiDung
-            if (kq == 0)
-            {
-                ProcessLogin();// Cấu hình phù hợp xử lý đăng nhập
-            }
+            //int kq = XuLy.Check_Config(); //hàm Check_Config() thuộc Class QL_NguoiDung
+            //if (kq == 0)
+            //{
+            //    ProcessLogin();// Cấu hình phù hợp xử lý đăng nhập
+            //}
         }
     }
 }

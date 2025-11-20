@@ -17,7 +17,7 @@ namespace AcentyShop_Applicate
             Application.EnableVisualStyles();
             //Application.SetHighDpiMode(HighDpiMode.PerMonitorV2);
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new GUI.frmDangNhap());
+            Application.Run(new GUI.frmTrangChu());
         }
     }
 }

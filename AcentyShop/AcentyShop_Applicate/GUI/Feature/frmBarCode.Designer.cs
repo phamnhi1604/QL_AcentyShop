@@ -31,8 +31,8 @@
             this.cbCam = new Sunny.UI.UIComboBox();
             this.txtBarCode = new Sunny.UI.UITextBox();
             this.btnStop = new Sunny.UI.UIButton();
-            this.ptbImg = new System.Windows.Forms.PictureBox();
             this.btnGetCode = new Sunny.UI.UIButton();
+            this.ptbImg = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.ptbImg)).BeginInit();
             this.SuspendLayout();
             // 
@@ -83,17 +83,6 @@
             this.btnStop.TipsFont = new System.Drawing.Font("Microsoft Sans Serif", 9F);
             this.btnStop.Click += new System.EventHandler(this.btnStop_Click);
             // 
-            // ptbImg
-            // 
-            this.ptbImg.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.ptbImg.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.ptbImg.Location = new System.Drawing.Point(28, 26);
-            this.ptbImg.Name = "ptbImg";
-            this.ptbImg.Size = new System.Drawing.Size(413, 388);
-            this.ptbImg.TabIndex = 11;
-            this.ptbImg.TabStop = false;
-            // 
             // btnGetCode
             // 
             this.btnGetCode.Cursor = System.Windows.Forms.Cursors.Hand;
@@ -106,6 +95,18 @@
             this.btnGetCode.Text = "OK";
             this.btnGetCode.TipsFont = new System.Drawing.Font("Microsoft Sans Serif", 9F);
             this.btnGetCode.Click += new System.EventHandler(this.btnGetCode_Click);
+            // 
+            // ptbImg
+            // 
+            this.ptbImg.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.ptbImg.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.ptbImg.Location = new System.Drawing.Point(28, 26);
+            this.ptbImg.Name = "ptbImg";
+            this.ptbImg.Size = new System.Drawing.Size(413, 388);
+            this.ptbImg.TabIndex = 11;
+            this.ptbImg.TabStop = false;
+            this.ptbImg.Click += new System.EventHandler(this.ptbImg_Click);
             // 
             // frmBarCode
             // 

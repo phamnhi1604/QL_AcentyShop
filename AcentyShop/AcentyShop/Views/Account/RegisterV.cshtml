@@ -24,7 +24,7 @@
         @Html.EditorFor(model => model.ConfirmPassword, new { htmlAttributes = new { @class = "form-control", @placeholder = "Nhập lại mật khẩu" } })
         @Html.ValidationMessageFor(model => model.ConfirmPassword, "", new { @class = "text-danger" })
 
-        <div class="form-group">
+        @*<div class="form-group">
             <label>Loại tài khoản</label><br />
             <label>
                 <input type="radio" name="AccountType" value="Người thuê" /> Người thuê
@@ -32,7 +32,7 @@
             <label>
                 <input type="radio" name="AccountType" value="Người cho thuê" /> Người cho thuê
             </label>
-        </div>
+        </div>*@
         <div class="" style="display:flex">
             <button type="submit" id="btnRegisterSubmit" class="btn btn-primary">Đăng ký</button>
             <div style="display: flex; flex-direction: column; margin-left: 10px;">

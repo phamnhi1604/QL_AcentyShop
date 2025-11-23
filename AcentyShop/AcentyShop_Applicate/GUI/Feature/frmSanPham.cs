@@ -23,6 +23,7 @@ namespace AcentyShop_Applicate.GUI.Feature
             InitializeComponent();
             loadDSSP();
         }
+
         private void loadDSSP()
         {
             var danhSachSP = from sp in db.SanPhams

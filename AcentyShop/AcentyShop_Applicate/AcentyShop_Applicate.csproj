@@ -103,6 +103,12 @@
       <DependentUpon>BDAcentyShop.dbml</DependentUpon>
     </Compile>
     <Compile Include="DTO\KhachHangDTO.cs" />
+    <Compile Include="GUI\Feature\ChiTietThongTinNhanVien.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\Feature\ChiTietThongTinNhanVien.Designer.cs">
+      <DependentUpon>ChiTietThongTinNhanVien.cs</DependentUpon>
+    </Compile>
     <Compile Include="GUI\Feature\frmBarCode.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -172,6 +178,9 @@
     <Compile Include="GUI\ThemeColor.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="GUI\Feature\ChiTietThongTinNhanVien.resx">
+      <DependentUpon>ChiTietThongTinNhanVien.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="GUI\Feature\frmBarCode.resx">
       <DependentUpon>frmBarCode.cs</DependentUpon>
     </EmbeddedResource>
@@ -183,6 +192,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="GUI\Feature\frmKho.resx">
       <DependentUpon>frmKho.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\Feature\frmNhanVien.resx">
+      <DependentUpon>frmNhanVien.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="GUI\Feature\frmSanPham.resx">
       <DependentUpon>frmSanPham.cs</DependentUpon>

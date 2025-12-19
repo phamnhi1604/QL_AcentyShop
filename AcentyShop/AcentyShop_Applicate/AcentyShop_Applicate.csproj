@@ -103,11 +103,18 @@
       <DependentUpon>BDAcentyShop.dbml</DependentUpon>
     </Compile>
     <Compile Include="DTO\KhachHangDTO.cs" />
+    <Compile Include="DTO\Session.cs" />
     <Compile Include="GUI\Feature\ChiTietThongTinNhanVien.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="GUI\Feature\ChiTietThongTinNhanVien.Designer.cs">
       <DependentUpon>ChiTietThongTinNhanVien.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\Feature\CTHDNhapKho.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\Feature\CTHDNhapKho.Designer.cs">
+      <DependentUpon>CTHDNhapKho.cs</DependentUpon>
     </Compile>
     <Compile Include="GUI\Feature\frmBarCode.cs">
       <SubType>Form</SubType>
@@ -169,6 +176,12 @@
     <Compile Include="GUI\frmDangNhap.Designer.cs">
       <DependentUpon>frmDangNhap.cs</DependentUpon>
     </Compile>
+    <Compile Include="GUI\frmDoiMatKhau.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\frmDoiMatKhau.Designer.cs">
+      <DependentUpon>frmDoiMatKhau.cs</DependentUpon>
+    </Compile>
     <Compile Include="GUI\frmTrangChu.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -180,6 +193,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="GUI\Feature\ChiTietThongTinNhanVien.resx">
       <DependentUpon>ChiTietThongTinNhanVien.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\Feature\CTHDNhapKho.resx">
+      <DependentUpon>CTHDNhapKho.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="GUI\Feature\frmBarCode.resx">
       <DependentUpon>frmBarCode.cs</DependentUpon>
@@ -204,6 +220,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="GUI\frmDangNhap.resx">
       <DependentUpon>frmDangNhap.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\frmDoiMatKhau.resx">
+      <DependentUpon>frmDoiMatKhau.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="GUI\frmTrangChu.resx">
       <DependentUpon>frmTrangChu.cs</DependentUpon>
@@ -281,7 +300,23 @@
     <None Include="Resources\product_img4_compact1.jpg" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Resources\visibility_24dp_434343_FILL0_wght400_GRAD0_opsz241.png" />
+    <None Include="Resources\visibility_24dp_434343_FILL0_wght400_GRAD0_opsz24.png" />
+    <None Include="Resources\visibility_off_24dp_434343_FILL0_wght400_GRAD0_opsz24.png" />
+    <None Include="Resources\visibility_lock_24dp_000000_FILL0_wght400_GRAD0_opsz24.png" />
+    <None Include="Resources\password_24dp_000000_FILL0_wght400_GRAD0_opsz24.png" />
+    <None Include="Resources\person_edit_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.png" />
+    <None Include="Resources\person_2_24dp_000000_FILL0_wght400_GRAD0_opsz24.png" />
+    <None Include="Resources\z7264072143776_eadbf0ba7691d6cef1ad0a477f81afd2.jpg" />
     <None Include="Resources\barcode_scanner_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.png" />
+    <None Include="Resources\logout_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.png" />
+    <None Include="Resources\lock_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.png" />
+    <None Include="Resources\lock_24dp_000000_FILL0_wght400_GRAD0_opsz24.png" />
+    <None Include="Resources\Gemini_Generated_Image_uge05luge05luge0.png" />
+    <None Include="Resources\Gemini_Generated_Image_uge05luge05luge01.png" />
+    <None Include="Resources\logoAcentyS.png" />
+    <None Include="Resources\MainBG.png" />
+    <None Include="Resources\changePWLogo.jpg" />
     <Content Include="Resources\NoImage.png" />
     <Content Include="Resources\NoImg.png" />
     <None Include="Resources\warehouse_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.png" />

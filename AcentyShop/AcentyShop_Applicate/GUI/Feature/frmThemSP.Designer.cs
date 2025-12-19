@@ -29,19 +29,19 @@
         private void InitializeComponent()
         {
             this.uiGroupBox2 = new Sunny.UI.UIGroupBox();
+            this.btnBarCode = new System.Windows.Forms.Button();
             this.uiLabel2 = new Sunny.UI.UILabel();
+            this.uiLabel5 = new Sunny.UI.UILabel();
+            this.uiLabel4 = new Sunny.UI.UILabel();
+            this.uiLabel3 = new Sunny.UI.UILabel();
             this.uiLabel1 = new Sunny.UI.UILabel();
             this.uiButton3 = new Sunny.UI.UIButton();
             this.txtBarCode = new Sunny.UI.UITextBox();
-            this.txtTenSp = new Sunny.UI.UITextBox();
-            this.btnBarCode = new System.Windows.Forms.Button();
-            this.pictureBoxSP = new System.Windows.Forms.PictureBox();
-            this.uiTextBox1 = new Sunny.UI.UITextBox();
-            this.uiLabel3 = new Sunny.UI.UILabel();
-            this.uiTextBox2 = new Sunny.UI.UITextBox();
-            this.uiLabel4 = new Sunny.UI.UILabel();
             this.uiTextBox3 = new Sunny.UI.UITextBox();
-            this.uiLabel5 = new Sunny.UI.UILabel();
+            this.uiTextBox2 = new Sunny.UI.UITextBox();
+            this.uiTextBox1 = new Sunny.UI.UITextBox();
+            this.txtTenSp = new Sunny.UI.UITextBox();
+            this.pictureBoxSP = new System.Windows.Forms.PictureBox();
             this.uiGroupBox2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxSP)).BeginInit();
             this.SuspendLayout();
@@ -74,6 +74,24 @@
             this.uiGroupBox2.Text = "Thông tin sản phẩm";
             this.uiGroupBox2.TextAlignment = System.Drawing.ContentAlignment.MiddleLeft;
             // 
+            // btnBarCode
+            // 
+            this.btnBarCode.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(9)))), ((int)(((byte)(86)))), ((int)(((byte)(202)))));
+            this.btnBarCode.FlatAppearance.BorderSize = 0;
+            this.btnBarCode.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnBarCode.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.btnBarCode.ForeColor = System.Drawing.Color.Gainsboro;
+            this.btnBarCode.Image = global::AcentyShop_Applicate.Properties.Resources.barcode_scanner_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24;
+            this.btnBarCode.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnBarCode.Location = new System.Drawing.Point(508, 46);
+            this.btnBarCode.Name = "btnBarCode";
+            this.btnBarCode.Padding = new System.Windows.Forms.Padding(12, 0, 0, 0);
+            this.btnBarCode.Size = new System.Drawing.Size(58, 33);
+            this.btnBarCode.TabIndex = 5;
+            this.btnBarCode.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btnBarCode.UseVisualStyleBackColor = false;
+            this.btnBarCode.Click += new System.EventHandler(this.btnBarCode_Click);
+            // 
             // uiLabel2
             // 
             this.uiLabel2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
@@ -83,6 +101,36 @@
             this.uiLabel2.Size = new System.Drawing.Size(121, 23);
             this.uiLabel2.TabIndex = 1;
             this.uiLabel2.Text = "Mã vạch";
+            // 
+            // uiLabel5
+            // 
+            this.uiLabel5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.uiLabel5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(48)))), ((int)(((byte)(48)))), ((int)(((byte)(48)))));
+            this.uiLabel5.Location = new System.Drawing.Point(19, 208);
+            this.uiLabel5.Name = "uiLabel5";
+            this.uiLabel5.Size = new System.Drawing.Size(121, 23);
+            this.uiLabel5.TabIndex = 1;
+            this.uiLabel5.Text = "Giá bán";
+            // 
+            // uiLabel4
+            // 
+            this.uiLabel4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.uiLabel4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(48)))), ((int)(((byte)(48)))), ((int)(((byte)(48)))));
+            this.uiLabel4.Location = new System.Drawing.Point(19, 169);
+            this.uiLabel4.Name = "uiLabel4";
+            this.uiLabel4.Size = new System.Drawing.Size(121, 23);
+            this.uiLabel4.TabIndex = 1;
+            this.uiLabel4.Text = "Loại sản phẩm";
+            // 
+            // uiLabel3
+            // 
+            this.uiLabel3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.uiLabel3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(48)))), ((int)(((byte)(48)))), ((int)(((byte)(48)))));
+            this.uiLabel3.Location = new System.Drawing.Point(19, 130);
+            this.uiLabel3.Name = "uiLabel3";
+            this.uiLabel3.Size = new System.Drawing.Size(146, 23);
+            this.uiLabel3.TabIndex = 1;
+            this.uiLabel3.Text = "Loại sản phẩm cha";
             // 
             // uiLabel1
             // 
@@ -121,73 +169,20 @@
             this.txtBarCode.TextAlignment = System.Drawing.ContentAlignment.MiddleLeft;
             this.txtBarCode.Watermark = "";
             // 
-            // txtTenSp
+            // uiTextBox3
             // 
-            this.txtTenSp.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.txtTenSp.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.txtTenSp.Location = new System.Drawing.Point(231, 85);
-            this.txtTenSp.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.txtTenSp.MinimumSize = new System.Drawing.Size(1, 16);
-            this.txtTenSp.Name = "txtTenSp";
-            this.txtTenSp.Padding = new System.Windows.Forms.Padding(5);
-            this.txtTenSp.ShowText = false;
-            this.txtTenSp.Size = new System.Drawing.Size(257, 29);
-            this.txtTenSp.TabIndex = 0;
-            this.txtTenSp.TextAlignment = System.Drawing.ContentAlignment.MiddleLeft;
-            this.txtTenSp.Watermark = "";
-            // 
-            // btnBarCode
-            // 
-            this.btnBarCode.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(9)))), ((int)(((byte)(86)))), ((int)(((byte)(202)))));
-            this.btnBarCode.FlatAppearance.BorderSize = 0;
-            this.btnBarCode.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnBarCode.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.btnBarCode.ForeColor = System.Drawing.Color.Gainsboro;
-            this.btnBarCode.Image = global::AcentyShop_Applicate.Properties.Resources.barcode_scanner_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24;
-            this.btnBarCode.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnBarCode.Location = new System.Drawing.Point(508, 46);
-            this.btnBarCode.Name = "btnBarCode";
-            this.btnBarCode.Padding = new System.Windows.Forms.Padding(12, 0, 0, 0);
-            this.btnBarCode.Size = new System.Drawing.Size(58, 33);
-            this.btnBarCode.TabIndex = 5;
-            this.btnBarCode.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.btnBarCode.UseVisualStyleBackColor = false;
-            this.btnBarCode.Click += new System.EventHandler(this.btnBarCode_Click);
-            // 
-            // pictureBoxSP
-            // 
-            this.pictureBoxSP.Image = global::AcentyShop_Applicate.Properties.Resources.NoImage;
-            this.pictureBoxSP.Location = new System.Drawing.Point(13, 13);
-            this.pictureBoxSP.Name = "pictureBoxSP";
-            this.pictureBoxSP.Size = new System.Drawing.Size(165, 151);
-            this.pictureBoxSP.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBoxSP.TabIndex = 7;
-            this.pictureBoxSP.TabStop = false;
-            // 
-            // uiTextBox1
-            // 
-            this.uiTextBox1.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.uiTextBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.uiTextBox1.Location = new System.Drawing.Point(231, 124);
-            this.uiTextBox1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.uiTextBox1.MinimumSize = new System.Drawing.Size(1, 16);
-            this.uiTextBox1.Name = "uiTextBox1";
-            this.uiTextBox1.Padding = new System.Windows.Forms.Padding(5);
-            this.uiTextBox1.ShowText = false;
-            this.uiTextBox1.Size = new System.Drawing.Size(257, 29);
-            this.uiTextBox1.TabIndex = 0;
-            this.uiTextBox1.TextAlignment = System.Drawing.ContentAlignment.MiddleLeft;
-            this.uiTextBox1.Watermark = "";
-            // 
-            // uiLabel3
-            // 
-            this.uiLabel3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.uiLabel3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(48)))), ((int)(((byte)(48)))), ((int)(((byte)(48)))));
-            this.uiLabel3.Location = new System.Drawing.Point(19, 130);
-            this.uiLabel3.Name = "uiLabel3";
-            this.uiLabel3.Size = new System.Drawing.Size(146, 23);
-            this.uiLabel3.TabIndex = 1;
-            this.uiLabel3.Text = "Loại sản phẩm cha";
+            this.uiTextBox3.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.uiTextBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.uiTextBox3.Location = new System.Drawing.Point(231, 202);
+            this.uiTextBox3.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.uiTextBox3.MinimumSize = new System.Drawing.Size(1, 16);
+            this.uiTextBox3.Name = "uiTextBox3";
+            this.uiTextBox3.Padding = new System.Windows.Forms.Padding(5);
+            this.uiTextBox3.ShowText = false;
+            this.uiTextBox3.Size = new System.Drawing.Size(257, 29);
+            this.uiTextBox3.TabIndex = 0;
+            this.uiTextBox3.TextAlignment = System.Drawing.ContentAlignment.MiddleLeft;
+            this.uiTextBox3.Watermark = "";
             // 
             // uiTextBox2
             // 
@@ -204,40 +199,45 @@
             this.uiTextBox2.TextAlignment = System.Drawing.ContentAlignment.MiddleLeft;
             this.uiTextBox2.Watermark = "";
             // 
-            // uiLabel4
+            // uiTextBox1
             // 
-            this.uiLabel4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.uiLabel4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(48)))), ((int)(((byte)(48)))), ((int)(((byte)(48)))));
-            this.uiLabel4.Location = new System.Drawing.Point(19, 169);
-            this.uiLabel4.Name = "uiLabel4";
-            this.uiLabel4.Size = new System.Drawing.Size(121, 23);
-            this.uiLabel4.TabIndex = 1;
-            this.uiLabel4.Text = "Loại sản phẩm";
+            this.uiTextBox1.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.uiTextBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.uiTextBox1.Location = new System.Drawing.Point(231, 124);
+            this.uiTextBox1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.uiTextBox1.MinimumSize = new System.Drawing.Size(1, 16);
+            this.uiTextBox1.Name = "uiTextBox1";
+            this.uiTextBox1.Padding = new System.Windows.Forms.Padding(5);
+            this.uiTextBox1.ShowText = false;
+            this.uiTextBox1.Size = new System.Drawing.Size(257, 29);
+            this.uiTextBox1.TabIndex = 0;
+            this.uiTextBox1.TextAlignment = System.Drawing.ContentAlignment.MiddleLeft;
+            this.uiTextBox1.Watermark = "";
             // 
-            // uiTextBox3
+            // txtTenSp
             // 
-            this.uiTextBox3.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.uiTextBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.uiTextBox3.Location = new System.Drawing.Point(231, 202);
-            this.uiTextBox3.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.uiTextBox3.MinimumSize = new System.Drawing.Size(1, 16);
-            this.uiTextBox3.Name = "uiTextBox3";
-            this.uiTextBox3.Padding = new System.Windows.Forms.Padding(5);
-            this.uiTextBox3.ShowText = false;
-            this.uiTextBox3.Size = new System.Drawing.Size(257, 29);
-            this.uiTextBox3.TabIndex = 0;
-            this.uiTextBox3.TextAlignment = System.Drawing.ContentAlignment.MiddleLeft;
-            this.uiTextBox3.Watermark = "";
+            this.txtTenSp.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.txtTenSp.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.txtTenSp.Location = new System.Drawing.Point(231, 85);
+            this.txtTenSp.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.txtTenSp.MinimumSize = new System.Drawing.Size(1, 16);
+            this.txtTenSp.Name = "txtTenSp";
+            this.txtTenSp.Padding = new System.Windows.Forms.Padding(5);
+            this.txtTenSp.ShowText = false;
+            this.txtTenSp.Size = new System.Drawing.Size(257, 29);
+            this.txtTenSp.TabIndex = 0;
+            this.txtTenSp.TextAlignment = System.Drawing.ContentAlignment.MiddleLeft;
+            this.txtTenSp.Watermark = "";
             // 
-            // uiLabel5
+            // pictureBoxSP
             // 
-            this.uiLabel5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.uiLabel5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(48)))), ((int)(((byte)(48)))), ((int)(((byte)(48)))));
-            this.uiLabel5.Location = new System.Drawing.Point(19, 208);
-            this.uiLabel5.Name = "uiLabel5";
-            this.uiLabel5.Size = new System.Drawing.Size(121, 23);
-            this.uiLabel5.TabIndex = 1;
-            this.uiLabel5.Text = "Giá bán";
+            this.pictureBoxSP.Image = global::AcentyShop_Applicate.Properties.Resources.NoImage;
+            this.pictureBoxSP.Location = new System.Drawing.Point(13, 13);
+            this.pictureBoxSP.Name = "pictureBoxSP";
+            this.pictureBoxSP.Size = new System.Drawing.Size(165, 151);
+            this.pictureBoxSP.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBoxSP.TabIndex = 7;
+            this.pictureBoxSP.TabStop = false;
             // 
             // frmThemSP
             // 
@@ -247,6 +247,7 @@
             this.Controls.Add(this.uiGroupBox2);
             this.Controls.Add(this.pictureBoxSP);
             this.Name = "frmThemSP";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "frmThemSP";
             this.uiGroupBox2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxSP)).EndInit();

@@ -83,5 +83,79 @@ namespace AcentyShop.Areas.NhanVien.Controllers
 
             return Json(childItems, JsonRequestBehavior.AllowGet);
         }
+
+
+        public ActionResult AddPartial()
+        {
+            List<SelectListItem> items = new List<SelectListItem>();
+
+            foreach (var lsp in db.LoaiSanPhamChas.ToList())
+            {
+                items.Add(new SelectListItem
+                {
+                    Value = lsp.IdLoaiSPCha.ToString(),
+                    Text = lsp.TenLoaiSPCha
+                });
+            }
+
+            ViewBag.SPLoaiCha = items;
+
+            return PartialView();
+        }
+        [CustomAuthorize("Admin", "Quản lý", "Nhân viên")]
+        [HttpPost]
+        public JsonResult Add(SanPham sp)
+        {
+            var res = new { success = false, message = "Thêm sản phẩm không thành công" };
+            SanPham temp = sp;
+            if (ModelState.IsValid)
+            {
+                try
+                {
+                    SanPham newSp = new SanPham()
+                    {
+                        TenSanPham = sp.TenSanPham,
+                        IdLoaiSP = sp.IdLoaiSP,
+                        AnhSP = sp.AnhSP,
+                        AnhSPChiTiet1 = sp.AnhSPChiTiet1,
+                        AnhSPChiTiet2 = sp.AnhSPChiTiet2,
+                        GiaBan = sp.GiaBan,
+                        GiamGia = sp.GiamGia,
+                        SoLuongDanhGia = sp.SoLuongDanhGia,
+                        NoiDungSanPham = sp.NoiDungSanPham,
+                        DanhGiaSanPham = sp.DanhGiaSanPham,
+                        ThanhToanVanChuyen = sp.ThanhToanVanChuyen,
+                        TonTai = true
+                    };
+                    db.SanPhams.InsertOnSubmit(newSp);
+                    db.SubmitChanges();
+
+                    res = new { success = true, message = "Thêm sản phẩm thành công" };
+                }
+                catch (Exception ex)
+                {
+
+                    res = new { success = false, message = "Đã xảy ra lỗi:" + ex.Message };
+                }
+            }
+
+            return Json(res);
+        }
+        public ActionResult EditPartial()
+        {
+            List<SelectListItem> items = new List<SelectListItem>();
+
+            foreach (var lsp in db.LoaiSanPhamChas.ToList())
+            {
+                items.Add(new SelectListItem
+                {
+                    Value = lsp.IdLoaiSPCha.ToString(),
+                    Text = lsp.TenLoaiSPCha
+                });
+            }
+
+            ViewBag.SPLoaiCha = items;
+            return PartialView();
+        }
     }
 }

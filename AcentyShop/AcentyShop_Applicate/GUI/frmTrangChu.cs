@@ -7,12 +7,17 @@ using System.Linq;
 using System.Runtime.InteropServices;
 using System.Text;
 using System.Threading.Tasks;
+using AcentyShop_Applicate.DAL;
+using AcentyShop_Applicate.DTO;
 using System.Windows.Forms;
 
 namespace AcentyShop_Applicate.GUI
 {
+
     public partial class frmTrangChu : Form
     {
+        BDAcentyShopDataContext db = new BDAcentyShopDataContext();
+
         private Button currentButton;
         private Random random;
         private int tempIndex;
@@ -20,6 +25,7 @@ namespace AcentyShop_Applicate.GUI
         public frmTrangChu()
         {
             InitializeComponent();
+            
             random = new Random();
             btnCloseChildForm.Visible = false;
             this.Text = string.Empty;
@@ -119,6 +125,7 @@ namespace AcentyShop_Applicate.GUI
             ReleaseCapture();
             SendMessage(this.Handle, 0x112, 0xf012, 0);
         }
+
         private void btnCloseChildForm_Click(object sender, EventArgs e)
         {
             if (activeForm != null)
@@ -218,5 +225,52 @@ namespace AcentyShop_Applicate.GUI
             OpenChildForm(new Feature.frmKho(), sender);
 
         }
+
+        private void btnLogOut_Click(object sender, EventArgs e)
+        {
+            new frmDangNhap().Show();
+            this.Hide();
+        }
+
+        private void btnNhanVien_Click(object sender, EventArgs e)
+        {
+            OpenChildForm(new Feature.frmNhanVien(), sender);
+
+        }
+ 
+        private void frmTrangChu_Load(object sender, EventArgs e)
+        {
+            long idNV = Session.IdNhanVien;
+            if (idNV == 0)
+                idNV = 1;
+            var tenNV = db.NhanViens.FirstOrDefault(n => n.IdNhanVien == idNV);
+            if (tenNV != null)
+            {
+                txtTenNV.Text = "Hi, " + tenNV.TenNhanVien;
+            }
+            else
+            {
+                txtTenNV.Text = "Xin Chào: admin";
+            }
+        }
+
+        private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            OpenChildForm(new Feature.ChiTietThongTinNhanVien(), sender);
+
+        }
+
+        private void uiButton1_Click(object sender, EventArgs e)
+        {
+            OpenChildForm(new Feature.ChiTietThongTinNhanVien(), sender);
+
+        }
+
+        private void button1_Click_1(object sender, EventArgs e)
+        {
+            OpenChildForm(new Feature.ChiTietThongTinNhanVien(), sender);
+
+        }
     }
 }
+ 

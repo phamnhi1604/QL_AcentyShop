@@ -43,7 +43,7 @@ namespace AcentyShop_Applicate.GUI.Feature
 
             dgvSanPham.DataSource = danhSachSP.ToList();
             //dgvSanPham.Columns["AnhSP"].Visible = false;
-
+             
         }
 
         private void dgvSanPham_SelectionChanged(object sender, EventArgs e)

@@ -30,8 +30,9 @@ F:\Code\QL_AcentyShop\AcentyShop\AcentyShop_Applicate\bin\Debug\zxing.dll
 F:\Code\QL_AcentyShop\AcentyShop\AcentyShop_Applicate\bin\Debug\zxing.presentation.dll
 F:\Code\QL_AcentyShop\AcentyShop\AcentyShop_Applicate\bin\Debug\zxing.xml
 F:\Code\QL_AcentyShop\AcentyShop\AcentyShop_Applicate\bin\Debug\zxing.presentation.xml
-F:\Code\QL_AcentyShop\AcentyShop\AcentyShop_Applicate\obj\Debug\AcentyShop_Applicate.csproj.CopyComplete
 F:\Code\QL_AcentyShop\AcentyShop\AcentyShop_Applicate\obj\Debug\AcentyShop_Applicate.GUI.Feature.ChiTietThongTinNhanVien.resources
 F:\Code\QL_AcentyShop\AcentyShop\AcentyShop_Applicate\obj\Debug\AcentyShop_Applicate.GUI.Feature.frmNhanVien.resources
 F:\Code\QL_AcentyShop\AcentyShop\AcentyShop_Applicate\obj\Debug\AcentyShop_Applicate.GUI.Feature.CTHDNhapKho.resources
 F:\Code\QL_AcentyShop\AcentyShop\AcentyShop_Applicate\obj\Debug\AcentyShop_Applicate.GUI.frmDoiMatKhau.resources
+F:\Code\QL_AcentyShop\AcentyShop\AcentyShop_Applicate\obj\Debug\AcentyShop_Applicate.GUI.Feature.frmAnhSanPham.resources
+F:\Code\QL_AcentyShop\AcentyShop\AcentyShop_Applicate\obj\Debug\AcentyShop_Applicate.csproj.CopyComplete

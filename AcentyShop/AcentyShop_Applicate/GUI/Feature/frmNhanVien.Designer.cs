@@ -104,6 +104,7 @@
             this.dgvDSNV.RowHeadersDefaultCellStyle = dataGridViewCellStyle4;
             dataGridViewCellStyle5.BackColor = System.Drawing.Color.White;
             dataGridViewCellStyle5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            dataGridViewCellStyle5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.dgvDSNV.RowsDefaultCellStyle = dataGridViewCellStyle5;
             this.dgvDSNV.SelectedIndex = -1;
             this.dgvDSNV.Size = new System.Drawing.Size(876, 347);

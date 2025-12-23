@@ -116,6 +116,12 @@
     <Compile Include="GUI\Feature\CTHDNhapKho.Designer.cs">
       <DependentUpon>CTHDNhapKho.cs</DependentUpon>
     </Compile>
+    <Compile Include="GUI\Feature\frmAnhSanPham.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\Feature\frmAnhSanPham.Designer.cs">
+      <DependentUpon>frmAnhSanPham.cs</DependentUpon>
+    </Compile>
     <Compile Include="GUI\Feature\frmBarCode.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -196,6 +202,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="GUI\Feature\CTHDNhapKho.resx">
       <DependentUpon>CTHDNhapKho.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\Feature\frmAnhSanPham.resx">
+      <DependentUpon>frmAnhSanPham.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="GUI\Feature\frmBarCode.resx">
       <DependentUpon>frmBarCode.cs</DependentUpon>

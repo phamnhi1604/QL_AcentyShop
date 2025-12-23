@@ -3,12 +3,32 @@
   "WorkspaceRootPath": "F:\\Code\\QL_AcentyShop\\AcentyShop\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1A029433-678A-4DE1-8A74-173ADE1B1FF5}|AcentyShop\\AcentyShop.csproj|f:\\code\\ql_acentyshop\\acentyshop\\acentyshop\\areas\\nhanvien\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1A029433-678A-4DE1-8A74-173ADE1B1FF5}|AcentyShop\\AcentyShop.csproj|solutionrelative:acentyshop\\areas\\nhanvien\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{524E5467-AAD0-4036-8F2C-7D6E560C7951}|AcentyShop_Applicate\\AcentyShop_Applicate.csproj|f:\\code\\ql_acentyshop\\acentyshop\\acentyshop_applicate\\gui\\feature\\frmthemsp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{524E5467-AAD0-4036-8F2C-7D6E560C7951}|AcentyShop_Applicate\\AcentyShop_Applicate.csproj|solutionrelative:acentyshop_applicate\\gui\\feature\\frmthemsp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1A029433-678A-4DE1-8A74-173ADE1B1FF5}|AcentyShop\\AcentyShop.csproj|F:\\Code\\QL_AcentyShop\\AcentyShop\\acentyshop\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1A029433-678A-4DE1-8A74-173ADE1B1FF5}|AcentyShop\\AcentyShop.csproj|solutionrelative:acentyshop\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{524E5467-AAD0-4036-8F2C-7D6E560C7951}|AcentyShop_Applicate\\AcentyShop_Applicate.csproj|f:\\code\\ql_acentyshop\\acentyshop\\acentyshop_applicate\\gui\\feature\\frmthemsp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{524E5467-AAD0-4036-8F2C-7D6E560C7951}|AcentyShop_Applicate\\AcentyShop_Applicate.csproj|solutionrelative:acentyshop_applicate\\gui\\feature\\frmthemsp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{524E5467-AAD0-4036-8F2C-7D6E560C7951}|AcentyShop_Applicate\\AcentyShop_Applicate.csproj|f:\\code\\ql_acentyshop\\acentyshop\\acentyshop_applicate\\gui\\feature\\frmanhsanpham.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{524E5467-AAD0-4036-8F2C-7D6E560C7951}|AcentyShop_Applicate\\AcentyShop_Applicate.csproj|solutionrelative:acentyshop_applicate\\gui\\feature\\frmanhsanpham.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{524E5467-AAD0-4036-8F2C-7D6E560C7951}|AcentyShop_Applicate\\AcentyShop_Applicate.csproj|f:\\code\\ql_acentyshop\\acentyshop\\acentyshop_applicate\\gui\\feature\\cthdnhapkho.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{524E5467-AAD0-4036-8F2C-7D6E560C7951}|AcentyShop_Applicate\\AcentyShop_Applicate.csproj|solutionrelative:acentyshop_applicate\\gui\\feature\\cthdnhapkho.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{524E5467-AAD0-4036-8F2C-7D6E560C7951}|AcentyShop_Applicate\\AcentyShop_Applicate.csproj|f:\\code\\ql_acentyshop\\acentyshop\\acentyshop_applicate\\gui\\feature\\frmsanpham.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{524E5467-AAD0-4036-8F2C-7D6E560C7951}|AcentyShop_Applicate\\AcentyShop_Applicate.csproj|solutionrelative:acentyshop_applicate\\gui\\feature\\frmsanpham.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{524E5467-AAD0-4036-8F2C-7D6E560C7951}|AcentyShop_Applicate\\AcentyShop_Applicate.csproj|f:\\code\\ql_acentyshop\\acentyshop\\acentyshop_applicate\\gui\\feature\\cthdnhapkho.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{524E5467-AAD0-4036-8F2C-7D6E560C7951}|AcentyShop_Applicate\\AcentyShop_Applicate.csproj|solutionrelative:acentyshop_applicate\\gui\\feature\\cthdnhapkho.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{524E5467-AAD0-4036-8F2C-7D6E560C7951}|AcentyShop_Applicate\\AcentyShop_Applicate.csproj|f:\\code\\ql_acentyshop\\acentyshop\\acentyshop_applicate\\gui\\feature\\frmnhanvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{524E5467-AAD0-4036-8F2C-7D6E560C7951}|AcentyShop_Applicate\\AcentyShop_Applicate.csproj|solutionrelative:acentyshop_applicate\\gui\\feature\\frmnhanvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1A029433-678A-4DE1-8A74-173ADE1B1FF5}|AcentyShop\\AcentyShop.csproj|F:\\Code\\QL_AcentyShop\\AcentyShop\\acentyshop\\areas\\nhanvien\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -22,7 +42,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 203,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -31,39 +51,101 @@
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "frmAnhSanPham.cs [Design]",
+              "DocumentMoniker": "F:\\Code\\QL_AcentyShop\\AcentyShop\\AcentyShop_Applicate\\GUI\\Feature\\frmAnhSanPham.cs",
+              "RelativeDocumentMoniker": "AcentyShop_Applicate\\GUI\\Feature\\frmAnhSanPham.cs",
+              "ToolTip": "F:\\Code\\QL_AcentyShop\\AcentyShop\\AcentyShop_Applicate\\GUI\\Feature\\frmAnhSanPham.cs [Design]",
+              "RelativeToolTip": "AcentyShop_Applicate\\GUI\\Feature\\frmAnhSanPham.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-23T21:03:26.224Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CTHDNhapKho.cs",
+              "DocumentMoniker": "F:\\Code\\QL_AcentyShop\\AcentyShop\\AcentyShop_Applicate\\GUI\\Feature\\CTHDNhapKho.cs",
+              "RelativeDocumentMoniker": "AcentyShop_Applicate\\GUI\\Feature\\CTHDNhapKho.cs",
+              "ToolTip": "F:\\Code\\QL_AcentyShop\\AcentyShop\\AcentyShop_Applicate\\GUI\\Feature\\CTHDNhapKho.cs",
+              "RelativeToolTip": "AcentyShop_Applicate\\GUI\\Feature\\CTHDNhapKho.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABoAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-23T20:30:48.817Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "frmThemSP.cs",
+              "DocumentMoniker": "F:\\Code\\QL_AcentyShop\\AcentyShop\\AcentyShop_Applicate\\GUI\\Feature\\frmThemSP.cs",
+              "RelativeDocumentMoniker": "AcentyShop_Applicate\\GUI\\Feature\\frmThemSP.cs",
+              "ToolTip": "F:\\Code\\QL_AcentyShop\\AcentyShop\\AcentyShop_Applicate\\GUI\\Feature\\frmThemSP.cs",
+              "RelativeToolTip": "AcentyShop_Applicate\\GUI\\Feature\\frmThemSP.cs",
+              "ViewState": "AgIAACsAAAAAAAAAAAAWwFAAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-23T19:56:33.495Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "frmSanPham.cs [Design]",
+              "DocumentMoniker": "F:\\Code\\QL_AcentyShop\\AcentyShop\\AcentyShop_Applicate\\GUI\\Feature\\frmSanPham.cs",
+              "RelativeDocumentMoniker": "AcentyShop_Applicate\\GUI\\Feature\\frmSanPham.cs",
+              "ToolTip": "F:\\Code\\QL_AcentyShop\\AcentyShop\\AcentyShop_Applicate\\GUI\\Feature\\frmSanPham.cs [Design]",
+              "RelativeToolTip": "AcentyShop_Applicate\\GUI\\Feature\\frmSanPham.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-23T19:43:38.719Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "frmNhanVien.cs [Design]",
+              "DocumentMoniker": "F:\\Code\\QL_AcentyShop\\AcentyShop\\AcentyShop_Applicate\\GUI\\Feature\\frmNhanVien.cs",
+              "RelativeDocumentMoniker": "AcentyShop_Applicate\\GUI\\Feature\\frmNhanVien.cs",
+              "ToolTip": "F:\\Code\\QL_AcentyShop\\AcentyShop\\AcentyShop_Applicate\\GUI\\Feature\\frmNhanVien.cs [Design]",
+              "RelativeToolTip": "AcentyShop_Applicate\\GUI\\Feature\\frmNhanVien.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-23T19:37:11.166Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CTHDNhapKho.cs [Design]",
+              "DocumentMoniker": "F:\\Code\\QL_AcentyShop\\AcentyShop\\AcentyShop_Applicate\\GUI\\Feature\\CTHDNhapKho.cs",
+              "RelativeDocumentMoniker": "AcentyShop_Applicate\\GUI\\Feature\\CTHDNhapKho.cs",
+              "ToolTip": "F:\\Code\\QL_AcentyShop\\AcentyShop\\AcentyShop_Applicate\\GUI\\Feature\\CTHDNhapKho.cs [Design]",
+              "RelativeToolTip": "AcentyShop_Applicate\\GUI\\Feature\\CTHDNhapKho.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-23T19:25:08.938Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "frmThemSP.cs [Design]",
+              "DocumentMoniker": "F:\\Code\\QL_AcentyShop\\AcentyShop\\AcentyShop_Applicate\\GUI\\Feature\\frmThemSP.cs",
+              "RelativeDocumentMoniker": "AcentyShop_Applicate\\GUI\\Feature\\frmThemSP.cs",
+              "ToolTip": "F:\\Code\\QL_AcentyShop\\AcentyShop\\AcentyShop_Applicate\\GUI\\Feature\\frmThemSP.cs [Design]",
+              "RelativeToolTip": "AcentyShop_Applicate\\GUI\\Feature\\frmThemSP.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-23T15:57:50.374Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "ProductsController.cs",
               "DocumentMoniker": "F:\\Code\\QL_AcentyShop\\AcentyShop\\AcentyShop\\Areas\\NhanVien\\Controllers\\ProductsController.cs",
               "RelativeDocumentMoniker": "AcentyShop\\Areas\\NhanVien\\Controllers\\ProductsController.cs",
               "ToolTip": "F:\\Code\\QL_AcentyShop\\AcentyShop\\AcentyShop\\Areas\\NhanVien\\Controllers\\ProductsController.cs",
               "RelativeToolTip": "AcentyShop\\Areas\\NhanVien\\Controllers\\ProductsController.cs",
-              "ViewState": "AgIAAGYAAAAAAAAAAAAowGkAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-21T20:06:36.963Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "OrdersController.cs",
-              "DocumentMoniker": "F:\\Code\\QL_AcentyShop\\AcentyShop\\AcentyShop\\Areas\\NhanVien\\Controllers\\OrdersController.cs",
-              "RelativeDocumentMoniker": "AcentyShop\\Areas\\NhanVien\\Controllers\\OrdersController.cs",
-              "ToolTip": "F:\\Code\\QL_AcentyShop\\AcentyShop\\AcentyShop\\Areas\\NhanVien\\Controllers\\OrdersController.cs",
-              "RelativeToolTip": "AcentyShop\\Areas\\NhanVien\\Controllers\\OrdersController.cs",
-              "ViewState": "AgIAACIAAAAAAAAAAAAAAB4AAABZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-21T20:06:31.187Z",
+              "WhenOpened": "2025-07-21T20:06:36.963Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "F:\\Code\\QL_AcentyShop\\AcentyShop\\AcentyShop\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "AcentyShop\\Controllers\\HomeController.cs",
-              "ToolTip": "F:\\Code\\QL_AcentyShop\\AcentyShop\\AcentyShop\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "AcentyShop\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAAAC4AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-21T20:00:05.739Z"
             }
           ]
         }

@@ -38,10 +38,10 @@
             this.uiButton3 = new Sunny.UI.UIButton();
             this.txtBarCode = new Sunny.UI.UITextBox();
             this.uiTextBox3 = new Sunny.UI.UITextBox();
-            this.uiTextBox2 = new Sunny.UI.UITextBox();
-            this.uiTextBox1 = new Sunny.UI.UITextBox();
             this.txtTenSp = new Sunny.UI.UITextBox();
             this.pictureBoxSP = new System.Windows.Forms.PictureBox();
+            this.cboLoaiSPCha = new Sunny.UI.UIComboBox();
+            this.cboLoaiSP = new Sunny.UI.UIComboBox();
             this.uiGroupBox2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxSP)).BeginInit();
             this.SuspendLayout();
@@ -51,6 +51,8 @@
             this.uiGroupBox2.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
+            this.uiGroupBox2.Controls.Add(this.cboLoaiSP);
+            this.uiGroupBox2.Controls.Add(this.cboLoaiSPCha);
             this.uiGroupBox2.Controls.Add(this.btnBarCode);
             this.uiGroupBox2.Controls.Add(this.uiLabel2);
             this.uiGroupBox2.Controls.Add(this.uiLabel5);
@@ -60,8 +62,6 @@
             this.uiGroupBox2.Controls.Add(this.uiButton3);
             this.uiGroupBox2.Controls.Add(this.txtBarCode);
             this.uiGroupBox2.Controls.Add(this.uiTextBox3);
-            this.uiGroupBox2.Controls.Add(this.uiTextBox2);
-            this.uiGroupBox2.Controls.Add(this.uiTextBox1);
             this.uiGroupBox2.Controls.Add(this.txtTenSp);
             this.uiGroupBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
             this.uiGroupBox2.Location = new System.Drawing.Point(13, 172);
@@ -184,36 +184,6 @@
             this.uiTextBox3.TextAlignment = System.Drawing.ContentAlignment.MiddleLeft;
             this.uiTextBox3.Watermark = "";
             // 
-            // uiTextBox2
-            // 
-            this.uiTextBox2.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.uiTextBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.uiTextBox2.Location = new System.Drawing.Point(231, 163);
-            this.uiTextBox2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.uiTextBox2.MinimumSize = new System.Drawing.Size(1, 16);
-            this.uiTextBox2.Name = "uiTextBox2";
-            this.uiTextBox2.Padding = new System.Windows.Forms.Padding(5);
-            this.uiTextBox2.ShowText = false;
-            this.uiTextBox2.Size = new System.Drawing.Size(257, 29);
-            this.uiTextBox2.TabIndex = 0;
-            this.uiTextBox2.TextAlignment = System.Drawing.ContentAlignment.MiddleLeft;
-            this.uiTextBox2.Watermark = "";
-            // 
-            // uiTextBox1
-            // 
-            this.uiTextBox1.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.uiTextBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.uiTextBox1.Location = new System.Drawing.Point(231, 124);
-            this.uiTextBox1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.uiTextBox1.MinimumSize = new System.Drawing.Size(1, 16);
-            this.uiTextBox1.Name = "uiTextBox1";
-            this.uiTextBox1.Padding = new System.Windows.Forms.Padding(5);
-            this.uiTextBox1.ShowText = false;
-            this.uiTextBox1.Size = new System.Drawing.Size(257, 29);
-            this.uiTextBox1.TabIndex = 0;
-            this.uiTextBox1.TextAlignment = System.Drawing.ContentAlignment.MiddleLeft;
-            this.uiTextBox1.Watermark = "";
-            // 
             // txtTenSp
             // 
             this.txtTenSp.Cursor = System.Windows.Forms.Cursors.IBeam;
@@ -238,6 +208,46 @@
             this.pictureBoxSP.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBoxSP.TabIndex = 7;
             this.pictureBoxSP.TabStop = false;
+            this.pictureBoxSP.Click += new System.EventHandler(this.pictureBoxSP_Click);
+            // 
+            // cboLoaiSPCha
+            // 
+            this.cboLoaiSPCha.DataSource = null;
+            this.cboLoaiSPCha.FillColor = System.Drawing.Color.White;
+            this.cboLoaiSPCha.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.cboLoaiSPCha.ItemHoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(155)))), ((int)(((byte)(200)))), ((int)(((byte)(255)))));
+            this.cboLoaiSPCha.ItemSelectForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(235)))), ((int)(((byte)(243)))), ((int)(((byte)(255)))));
+            this.cboLoaiSPCha.Location = new System.Drawing.Point(231, 124);
+            this.cboLoaiSPCha.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.cboLoaiSPCha.MinimumSize = new System.Drawing.Size(63, 0);
+            this.cboLoaiSPCha.Name = "cboLoaiSPCha";
+            this.cboLoaiSPCha.Padding = new System.Windows.Forms.Padding(0, 0, 30, 2);
+            this.cboLoaiSPCha.Size = new System.Drawing.Size(257, 29);
+            this.cboLoaiSPCha.SymbolSize = 24;
+            this.cboLoaiSPCha.TabIndex = 6;
+            this.cboLoaiSPCha.Text = "uiComboBox1";
+            this.cboLoaiSPCha.TextAlignment = System.Drawing.ContentAlignment.MiddleLeft;
+            this.cboLoaiSPCha.Watermark = "";
+            this.cboLoaiSPCha.SelectedValueChanged += new System.EventHandler(this.cboLoaiSPCha_SelectedValueChanged);
+            // 
+            // cboLoaiSP
+            // 
+            this.cboLoaiSP.DataSource = null;
+            this.cboLoaiSP.FillColor = System.Drawing.Color.White;
+            this.cboLoaiSP.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.cboLoaiSP.ItemHoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(155)))), ((int)(((byte)(200)))), ((int)(((byte)(255)))));
+            this.cboLoaiSP.ItemSelectForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(235)))), ((int)(((byte)(243)))), ((int)(((byte)(255)))));
+            this.cboLoaiSP.Location = new System.Drawing.Point(231, 163);
+            this.cboLoaiSP.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.cboLoaiSP.MinimumSize = new System.Drawing.Size(63, 0);
+            this.cboLoaiSP.Name = "cboLoaiSP";
+            this.cboLoaiSP.Padding = new System.Windows.Forms.Padding(0, 0, 30, 2);
+            this.cboLoaiSP.Size = new System.Drawing.Size(257, 29);
+            this.cboLoaiSP.SymbolSize = 24;
+            this.cboLoaiSP.TabIndex = 7;
+            this.cboLoaiSP.Text = "uiComboBox2";
+            this.cboLoaiSP.TextAlignment = System.Drawing.ContentAlignment.MiddleLeft;
+            this.cboLoaiSP.Watermark = "";
             // 
             // frmThemSP
             // 
@@ -249,6 +259,7 @@
             this.Name = "frmThemSP";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "frmThemSP";
+            this.Load += new System.EventHandler(this.frmThemSP_Load);
             this.uiGroupBox2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxSP)).EndInit();
             this.ResumeLayout(false);
@@ -268,7 +279,7 @@
         private Sunny.UI.UILabel uiLabel4;
         private Sunny.UI.UILabel uiLabel3;
         private Sunny.UI.UITextBox uiTextBox3;
-        private Sunny.UI.UITextBox uiTextBox2;
-        private Sunny.UI.UITextBox uiTextBox1;
+        private Sunny.UI.UIComboBox cboLoaiSP;
+        private Sunny.UI.UIComboBox cboLoaiSPCha;
     }
 }

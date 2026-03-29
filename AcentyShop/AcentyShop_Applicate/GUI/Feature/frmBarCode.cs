@@ -138,5 +138,10 @@ namespace AcentyShop_Applicate.GUI.Feature
             textcode = txtBarCode.Text;
             this.Close();
         }
+
+        private void ptbImg_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

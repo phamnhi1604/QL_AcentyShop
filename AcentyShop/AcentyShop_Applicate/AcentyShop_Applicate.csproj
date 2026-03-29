@@ -97,6 +97,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BLL\DangNhapBLL.cs" />
     <Compile Include="DAL\BDAcentyShop.designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -178,6 +179,9 @@
     <EmbeddedResource Include="GUI\Feature\frmDanhMuc.resx">
       <DependentUpon>frmDanhMuc.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="GUI\Feature\frmDonHang.resx">
+      <DependentUpon>frmDonHang.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="GUI\Feature\frmKhachHang.resx">
       <DependentUpon>frmKhachHang.cs</DependentUpon>
     </EmbeddedResource>
@@ -229,9 +233,7 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="BLL\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <Service Include="{3259AA49-8AA1-44D3-9025-A0B520596A8C}" />
   </ItemGroup>

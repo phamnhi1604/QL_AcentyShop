@@ -31,3 +31,4 @@ F:\Code\QL_AcentyShop\AcentyShop\AcentyShop_Applicate\bin\Debug\zxing.presentati
 F:\Code\QL_AcentyShop\AcentyShop\AcentyShop_Applicate\bin\Debug\zxing.xml
 F:\Code\QL_AcentyShop\AcentyShop\AcentyShop_Applicate\bin\Debug\zxing.presentation.xml
 F:\Code\QL_AcentyShop\AcentyShop\AcentyShop_Applicate\obj\Debug\AcentyShop_Applicate.csproj.CopyComplete
+F:\Code\QL_AcentyShop\AcentyShop\AcentyShop_Applicate\obj\Debug\AcentyShop_Applicate.GUI.Feature.frmDonHang.resources
